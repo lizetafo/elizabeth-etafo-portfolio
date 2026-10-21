@@ -6,7 +6,7 @@
 //    group   = one of:  "Conferences and awards"  |  "Lab work"  |  "Past roles"  |  "More moments"
 // Photos appear in the order listed. Remove the // at the start of a line to turn it on.
 window.PHOTOS = [
-  // { file: "aaps-2026.jpg", caption: "Presenting at AAPS PharmSci 360, New Orleans, 2026", group: "Conferences and awards" },
+   { file: "image.jpg", caption: "Society for family health", group: "Pharmaceutical Sales Representative" }
   // { file: "lab-bench.jpg", caption: "At the bench, UNMC", group: "Lab work" },
   // { file: "pharmacy-2021.jpg", caption: "Pharmacist at ...", group: "Past roles" },
 ];
