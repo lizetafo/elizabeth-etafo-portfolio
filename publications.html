@@ -11,35 +11,48 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="styles.css">
+<script>(function(){var d=document.documentElement;d.classList.add('js');var t=null;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}d.dataset.theme=t})()</script>
 </head>
 <body>
 <header class="top"><div class="wrap bar">
-<a class="brand" href="index.html"><img class="logo" src="assets/logo.png" alt="" width="38" height="38">Elizabeth Etafo</a>
-<nav aria-label="Main"><a href="publications.html" aria-current="page">Publications</a><a href="experience.html">Experience</a><a href="about.html">About</a><a href="contact.html">Let’s connect</a></nav></div></header>
+<a class="brand" href="index.html"><img class="logo logo-l" src="assets/logo-mark-light.png" alt="" width="46" height="46"><img class="logo logo-d" src="assets/logo-mark-dark.png" alt="" width="46" height="46">Elizabeth Etafo</a>
+<nav aria-label="Main"><a href="publications.html" aria-current="page">Publications</a><a href="experience.html">Experience</a><a href="about.html">About</a><a href="contact.html">Let’s connect</a><button class="theme" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></nav></div></header>
 <main>
-<section class="wrap pagehead"><p class="eyebrow">Publications and recognition</p><h1 class="page">Science made <em>visible.</em></h1></section><section class="wrap narrow"><h3 class="small">Research profiles</h3>
-<ul class="profiles"><li><a href="https://www.researchgate.net/profile/Elizabeth-Etafo?ev=hdr_xprf">ResearchGate</a></li><li><a href="https://www.webofscience.com/wos/author/record/PGG-0121-2026">Web of Science</a></li><li><a href="https://orcid.org/0009-0003-0752-5029">ORCID</a></li><li><a href="https://scholar.google.com/citations?user=1YVLZ8gAAAAJ&amp;hl=en">Google Scholar</a></li></ul><div class="card wide">
-    <h3>Publications</h3>
-    <ul class="rows">
-      <li><span class="yr">2026</span><div><a href="https://doi.org/10.1016/j.bbi.2026.106931"><em>Neuroimmune Crosstalk in HIV Infection and the Impact of Antiretroviral Therapy</em></a><small>E. Etafo, et al. Brain, Behavior, and Immunity</small></div></li>
-      <li><span class="yr">2026</span><div><a href="https://doi.org/10.1016/j.neubiorev.2026.106932"><em>Does HIV-1 Infection Drive Alzheimer’s Disease?</em></a><small>E. Etafo, et al. Neuroscience &amp; Biobehavioral Reviews</small></div></li>
-    </ul>
-    <h3>Awards and honors</h3>
-    <ul class="rows">
-      <li><span class="yr">2026</span><div>Best Abstract Award<small>AAPS PharmSci 360</small></div></li>
-      <li><span class="yr">2026</span><div>Outstanding Oral Presentation Award<small>Neuroscience Symposium</small></div></li>
-      <li><span class="yr">2026</span><div>Nancy and Ronald Reagan Alzheimer’s Scholarship<small>Kinman-Oldfield Family Foundation</small></div></li>
-      <li><span class="yr">2026</span><div>Conference Attendance Award<small>UNMC Dean of Graduate Studies</small></div></li>
-<li><span class="yr">2015–2018</span><div>Dean’s Award, High Honor Certificate<small>Cyprus International University</small></div></li>
-<li><span class="yr">2013–2015</span><div>Dean’s Award, Honor Certificate<small>Cyprus International University</small></div></li>
-    </ul>
-    <h3>Selected presentations</h3>
-    <ul class="rows">
-      <li><span class="yr">2026</span><div><em>Systemic Control, CNS Escape: Regimen-Specific Differences in Brain HIV Suppression Revealed in a Humanized Microglial Mouse Model</em><small>AAPS PharmSci 360, New Orleans, LA. Best Abstract Award</small></div></li>
-      <li><span class="yr">2026</span><div><em>Persistent HIV and Associated Pathology in the Spinal Cord of ART-Treated Humanized Glial Mice</em><small>57th Midwest Student Biomedical Research Forum</small></div></li>
-    </ul>
-  </div></section>
+<section class="wrap pagehead"><p class="eyebrow">Publications and recognition</p><h1 class="page">Science made <em>visible.</em></h1><p class="lead">Papers, awards, and talks from my doctoral research and earlier training.</p></section>
+<section class="wrap stats" aria-label="At a glance"><ul>
+<li><b data-count="2">2</b><span>peer-reviewed publications</span></li>
+<li><b data-count="6">6</b><span>conference presentations in 2026</span></li>
+<li><b data-count="6">6</b><span>awards, scholarships, and honors</span></li></ul></section>
+<section class="wrap" id="papers"><h2>Publications</h2>
+<div class="grid pubgrid">
+<article class="pub"><div class="pubtop"><span class="badge">Brain, Behavior, and Immunity</span><span class="yr">2026</span></div>
+<h3>Neuroimmune Crosstalk in HIV Infection and the Impact of Antiretroviral Therapy</h3><p class="by">E. Etafo, et al.</p>
+<a class="btn" href="https://doi.org/10.1016/j.bbi.2026.106931" target="_blank" rel="noopener">Read the paper<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg><span class="sr"> (opens in a new tab)</span></a></article>
+<article class="pub"><div class="pubtop"><span class="badge">Neuroscience &amp; Biobehavioral Reviews</span><span class="yr">2026</span></div>
+<h3>Does HIV-1 Infection Drive Alzheimer’s Disease?</h3><p class="by">E. Etafo, et al.</p>
+<a class="btn" href="https://doi.org/10.1016/j.neubiorev.2026.106932" target="_blank" rel="noopener">Read the paper<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg><span class="sr"> (opens in a new tab)</span></a></article>
+</div></section>
+<section class="band" id="awards"><div class="wrap"><h2>Awards and honors</h2>
+<div class="awards">
+<article class="award featured"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5"/></svg><span class="yr">2026</span><h3>Best Abstract Award</h3><p>AAPS PharmSci 360</p></article>
+<article class="award"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5"/></svg><span class="yr">2026</span><h3>Outstanding Oral Presentation Award</h3><p>Neuroscience Symposium</p></article>
+<article class="award"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5"/></svg><span class="yr">2026</span><h3>Nancy and Ronald Reagan Alzheimer’s Scholarship</h3><p>Kinman-Oldfield Family Foundation</p></article>
+<article class="award"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5"/></svg><span class="yr">2026</span><h3>Conference Attendance Award</h3><p>UNMC Dean of Graduate Studies</p></article>
+<article class="award"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg><span class="yr">2015–2018</span><h3>Dean’s Award, High Honor Certificate</h3><p>Cyprus International University</p></article>
+<article class="award"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg><span class="yr">2013–2015</span><h3>Dean’s Award, Honor Certificate</h3><p>Cyprus International University</p></article>
+</div></div></section>
+<section class="wrap" id="talks"><h2>Highlighted presentations</h2>
+<ol class="tl">
+<li class="tl-item"><span class="tl-dot"></span><p class="tl-date">October 2026</p><h3>Systemic Control, CNS Escape: Regimen-Specific Differences in Brain HIV Suppression Revealed in a Humanized Microglial Mouse Model</h3><p>AAPS PharmSci 360, New Orleans, LA</p><span class="badge gold">Best Abstract Award</span></li>
+<li class="tl-item"><span class="tl-dot"></span><p class="tl-date">2026</p><h3>Persistent HIV and Associated Pathology in the Spinal Cord of ART-Treated Humanized Glial Mice</h3><p>57th Midwest Student Biomedical Research Forum</p></li>
+</ol></section>
+<section class="band" id="profiles"><div class="wrap split">
+<div><h2>Find my work elsewhere</h2><p class="lead">My publication record and citations are also listed on these research profiles.</p></div>
+<ul class="profiles big">
+<li><a href="https://www.researchgate.net/profile/Elizabeth-Etafo?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg><span class="sr"> (opens in a new tab)</span></a></li><li><a href="https://www.webofscience.com/wos/author/record/PGG-0121-2026" target="_blank" rel="noopener">Web of Science<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg><span class="sr"> (opens in a new tab)</span></a></li><li><a href="https://orcid.org/0009-0003-0752-5029" target="_blank" rel="noopener">ORCID<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg><span class="sr"> (opens in a new tab)</span></a></li><li><a href="https://scholar.google.com/citations?user=1YVLZ8gAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg><span class="sr"> (opens in a new tab)</span></a></li></ul></div></section>
 </main>
 <footer class="wrap foot">© 2026 Elizabeth Etafo</footer>
+<script src="background.js" defer></script>
+<script src="script.js" defer></script>
 </body>
 </html>
