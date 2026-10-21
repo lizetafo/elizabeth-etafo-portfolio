@@ -5,8 +5,10 @@
 //    caption = a short description (also read aloud for visually impaired visitors)
 //    group   = one of:  "Conferences and awards"  |  "Lab work"  |  "Past roles"  |  "More moments"
 // Photos appear in the order listed. Remove the // at the start of a line to turn it on.
-window.PHOTOS = [
-   { file: "image.jpg", caption: "Society for family health", group: "Past roles" }
+window.PHOTOS = Array.from({ length: 27 }, (_, i) => ({
+  file: `${i + 1}.jpg`,
+  caption: ""
+}));
   // { file: "lab-bench.jpg", caption: "At the bench, UNMC", group: "Lab work" },
   // { file: "pharmacy-2021.jpg", caption: "Pharmacist at ...", group: "Past roles" },
-];
+
