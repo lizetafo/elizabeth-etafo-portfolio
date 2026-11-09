@@ -32,6 +32,7 @@ The personal research portfolio of **Elizabeth Etafo**, a Ph.D. candidate in Pha
 - **HTML, CSS, and JavaScript**, with no frameworks or build tools
 - **Google Fonts:** Newsreader and Inter
 - **Hosted on GitHub Pages** with the custom domain `elizabethetafo.com`
+- **Developed with AI-assisted coding** using [Claude](https://claude.ai) by Anthropic
 
 ## 📁 Project structure
 
