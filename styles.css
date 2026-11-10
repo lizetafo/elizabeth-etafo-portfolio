@@ -233,3 +233,20 @@ html.theming *{transition:background-color .35s ease,color .35s ease,border-colo
 @media(max-width:900px){.awards{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.awards{grid-template-columns:1fr}.photos{grid-template-columns:1fr}.photos img,.photos figure:first-child img{aspect-ratio:4/3}}
 @media(prefers-reduced-motion:reduce){.award{transition:none}.award:hover{translate:none}}
+
+/* ===== projects page ===== */
+.projects{display:grid;gap:32px;padding-top:8px}
+.proj{display:grid;grid-template-columns:1.15fr 1fr;gap:36px;align-items:center;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--teal);border-radius:10px;padding:28px;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.proj-img{display:block;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:#fff}
+.proj-img img{display:block;width:100%;height:auto;transition:transform .3s}
+.proj-img:hover img{transform:scale(1.02)}
+.proj h2{font-size:28px;margin:0 0 14px}
+.proj p{color:var(--mute);margin:0 0 14px}
+.proj .proj-check{color:var(--ink);font-size:15.5px}
+.proj .proj-check b{color:var(--teal);font-weight:600}
+.proj .tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.proj .cta{margin:0}
+.ico-gh{width:17px;height:17px;vertical-align:-3px;margin-right:8px}
+@media(max-width:860px){.proj{grid-template-columns:1fr;gap:24px;padding:20px}}
+@media(prefers-reduced-motion:reduce){.proj-img img{transition:none}}
+.foot a{color:inherit;margin-left:18px}.foot a:hover{color:var(--teal)}

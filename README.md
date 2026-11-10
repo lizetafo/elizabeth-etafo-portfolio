@@ -15,6 +15,7 @@ The personal research portfolio of **Elizabeth Etafo**, a Ph.D. candidate in Pha
 | [**Home**](https://elizabethetafo.com) | Introduction, education, and research highlights |
 | [**Publications**](https://elizabethetafo.com/publications.html) | Peer-reviewed papers, awards and honors, and conference presentations |
 | [**Experience**](https://elizabethetafo.com/experience.html) | Doctoral research projects and laboratory and computational skills |
+| [**Projects**](https://elizabethetafo.com/projects.html) | Open-source R Shiny apps for RNA-seq and glial immunofluorescence analysis, with links to GitHub |
 | [**About**](https://elizabethetafo.com/about.html) | Background, leadership, training, and certifications |
 | [**Let's connect**](https://elizabethetafo.com/contact.html) | LinkedIn, research profiles, and a downloadable CV |
 
@@ -40,6 +41,7 @@ The personal research portfolio of **Elizabeth Etafo**, a Ph.D. candidate in Pha
 ├── index.html          # Home page
 ├── publications.html   # Publications, awards, and presentations
 ├── experience.html     # Research experience and skills
+├── projects.html       # Open-source projects (R Shiny apps)
 ├── about.html          # Background, training, and certifications
 ├── contact.html        # Contact and research profiles
 ├── 404.html            # Page-not-found page
@@ -53,6 +55,7 @@ The personal research portfolio of **Elizabeth Etafo**, a Ph.D. candidate in Pha
 ## 📫 Contact
 
 - **LinkedIn:** [linkedin.com/in/eetafo](https://www.linkedin.com/in/eetafo/)
+- **GitHub:** [github.com/lizetafo](https://github.com/lizetafo)
 - **Google Scholar:** [Profile](https://scholar.google.com/citations?user=1YVLZ8gAAAAJ&hl=en)
 - **ORCID:** [0009-0003-0752-5029](https://orcid.org/0009-0003-0752-5029)
 
