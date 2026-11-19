@@ -250,3 +250,12 @@ html.theming *{transition:background-color .35s ease,color .35s ease,border-colo
 @media(max-width:860px){.proj{grid-template-columns:1fr;gap:24px;padding:20px}}
 @media(prefers-reduced-motion:reduce){.proj-img img{transition:none}}
 .foot a{color:inherit;margin-left:18px}.foot a:hover{color:var(--teal)}
+/* descriptions on publication and award cards */
+.pub .by{margin-bottom:14px}.pub .by b{font-weight:600;color:var(--ink)}
+.pub .desc{margin:0 0 24px;color:var(--mute);font-size:16.5px;line-height:1.6}
+.awards.wide{grid-template-columns:repeat(2,1fr)}
+.award .desc{margin-top:12px;color:var(--ink);font-size:16px;line-height:1.6}
+.awards.small .award{padding:22px 24px 20px}.awards.small .award h3{font-size:19px}
+.tl-links{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:12px!important}.tl-links .badge.gold{margin-top:0}
+.btn.sm{padding:8px 16px;font-size:14px}
+@media(max-width:700px){.awards.wide{grid-template-columns:1fr}}
